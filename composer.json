@@ -1,0 +1,28 @@
+{
+    "name": "grummfy/laravel-restorable-events",
+    "description": "This library is an help to store and restore events for laravel.",
+    "type": "library",
+    "license": "MIT",
+	"keywords": [
+	  	"event",
+		"model",
+		"restorable",
+		"laravel"
+	],
+    "authors": [
+        {
+            "name": "Grummfy",
+            "email": "me@grummfy.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "\\Grummfy\\RestorableEvents\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
