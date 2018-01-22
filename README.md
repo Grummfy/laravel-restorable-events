@@ -40,6 +40,11 @@ If you need to hook some change, when an event is restored, just implements the 
 
 If you require you could also prioritise the events. Just fill the `$priorities` value from the trait on the service listener.
 
+### What's stored
+
+In the event `CreditRefilled` is dispatched, it will be saved,
+but for each eloquent model, only the id and the name of the model will be saved.
+
 ## TODO
 * unit test
 * QA tools
